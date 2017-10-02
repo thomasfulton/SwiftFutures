@@ -33,7 +33,7 @@ future.onComplete { (result) in
 
 ```
 
-If the onComplete listener is set before the operation completes, it will be called when it completes. If the operation has completed, it will be called immediately. `onComplete` blocks can be run on a provided `DispatchQueue` or on the initializer's queue.
+If the `onComplete` listener is set before the operation completes, it will be called when it completes. If the operation has completed, it will be called immediately. `onComplete` blocks can be run on a provided `DispatchQueue` or on the initializer's queue.
 
 ## TODOs
 
